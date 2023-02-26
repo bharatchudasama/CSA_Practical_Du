@@ -98,13 +98,10 @@ int main()
 {
     // Given input
     string s ;
-    // cout<<"enter number :";
-    cin>>s;
+    cout<<"enter number :";cin>>s;
     int a , b ;
-    // cout<<"enter radix of number :";
-    cin>>a;
-    // cout<<"enter radix to convert in :";
-    cin>>b;
+    cout<<"enter radix of number :";cin>>a;
+    cout<<"enter radix to convert in :";cin>>b;
  
     // Function Call
     convertBase(s, a, b);
