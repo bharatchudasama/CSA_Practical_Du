@@ -29,7 +29,9 @@ unsigned int onesComplement(unsigned int n)
  
 int main()
 {
-    unsigned int n = 22;
+    unsigned int n;
+    cout<<"enter number :";
+    cin>>n;
     cout << onesComplement(n);
     return 0;
 }
